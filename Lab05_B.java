@@ -4,6 +4,7 @@ public class Lab05_B {
 
     private static boolean isValid(String input) {
         if (!input.matches("[A-Za-z+-/*]+")) {
+
             System.out.println(
                     "# SYNTAX ERROR- Numbers 0,1 to 9 are not allowed. String should contain A to Z and a to z & operators +,-,*,/");
             return false;
